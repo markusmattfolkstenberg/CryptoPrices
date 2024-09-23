@@ -1,0 +1,46 @@
+{
+  "configurations" : [
+    {
+      "id" : "DF34E4B2-428D-4595-8F8C-1E26507E2346",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "enabled" : false,
+      "target" : {
+        "containerPath" : "container:CryptoPrice.xcodeproj",
+        "identifier" : "4FA7A8032C9C2BB2006375D4",
+        "name" : "CryptoPriceTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/CryptoPriceModules",
+        "identifier" : "ModelsTests",
+        "name" : "ModelsTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/CryptoPriceModules",
+        "identifier" : "CryptocurrencyListFeatureTests",
+        "name" : "CryptocurrencyListFeatureTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/CryptoPriceModules",
+        "identifier" : "ServicesTests",
+        "name" : "ServicesTests"
+      }
+    }
+  ],
+  "version" : 1
+}
